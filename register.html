@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration</title>
+	<link rel="stylesheet" type="text/css" href="styleLoginPage.css">
+	<script src="loginPage.js"></script>
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form class="register-form" action="info.html" onsubmit="return validateRegister()">
+				<h1>user registration</h1>
+				<input id="uname" type="text" placeholder="user name"/>
+				<input id="pword" type="text" placeholder="password"/>
+				<input id="ne" type="text" placeholder="name"/>
+				<input id="srname" type="text" placeholder="surname"/>
+				<input id="el" type="text" placeholder="email"/>
+				<input id="mbno" type="text" placeholder="mobile number"/>
+				<input id="pcode"  type="text" placeholder="pin code"/>	
+				<input type="checkbox" id="ch"/><span>accept terms and conditions</span>
+				<button type="submit" >register</button>	
+				<p class="message">Already Registered ?<a href="#" onclick="goLogin()">Login</a></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

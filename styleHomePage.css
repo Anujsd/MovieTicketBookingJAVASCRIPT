@@ -1,0 +1,60 @@
+body{
+	background-color: #ffffff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.home-page{
+	background: white;
+	margin: auto;
+	width: 900px;
+}
+
+.header{
+	background: #ffa64d;
+	padding: 10px;
+}
+
+.content{
+	padding: 10px;
+}
+
+.trending{
+	width: 180px;
+	float: left;
+}
+
+.main{
+	width: 600px;
+	float: right;
+}
+
+.footer{
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align: right; 
+}
+.header h1{
+	color: white;
+	text-align: center;
+}
+
+.header button{
+	padding: 10px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	background: #ff9999;
+	cursor: pointer;
+	color: white;
+
+}
+
+h1{
+	margin: 0; 
+}
+
+.main img{
+	padding: 20px;
+	position: relative;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration</title>
+	<link rel="stylesheet" type="text/css" href="styleLoginPage.css">
+	<script src="loginPage.js"></script>
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form class="login-form" action="homePage.html" onsubmit="return  validateLogin()">
+				<h1>user login</h1>
+				<input id="uname" type="text" placeholder="user name"/>
+				<input id="pword" type="password" placeholder="password"/>
+				<button type="submit">Log in</button>
+				<p class="message">Not Registered? <a href="#" onclick="goRegister()">Register</a></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
